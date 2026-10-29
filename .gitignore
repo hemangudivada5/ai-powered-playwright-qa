@@ -1,0 +1,20 @@
+﻿# Dependencies
+node_modules/
+
+# Playwright outputs
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Generated scenario output
+artifacts/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and coverage
+*.log
+coverage/
